@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CS FA2 GRADED ACTIVITY </title>
+</head>
+
+
+<body>
+
+    <h1> Rios2ndGradedExercise </h1> 
+
+    
+
+   
+    <button onclick="CHimage()"> CHANGING IMAGE </button>
+
+    <button onclick="REimage()">  REVERTING IMAGE </button>
+
+    <br> <br> <br> <br> 
+
+    <img id="IMG1" src="pic1.jpg" alt="IMAGES" width="500" height="300">
+
+    <script>
+        
+        function CHimage() {
+            
+            document.getElementById("IMG1").src = "pic1.jpg";
+            //output
+
+        }
+
+        
+        function REimage() {
+           
+            document.getElementById("IMG1").src = "pic2.jpg";
+            //output
+
+        }
+    </script>
+</body>
+</html>
